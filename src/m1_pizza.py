@@ -515,7 +515,7 @@ def run_test_fancy_polygon():
     window = rg.RoseWindow(700, 800, title)
 
     circle = rg.Circle(rg.Point(330, 400), 100)
-    circle.fill_color = 'blue'
+    circle.fill_color = 'light blue'
     fancy_polygon(window, circle, 51, 25, 'white', 1)
     window.close_on_mouse_click()
 
